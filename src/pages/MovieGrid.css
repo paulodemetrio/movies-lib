@@ -28,3 +28,30 @@
     background-color: rgb(31, 31, 31);
     padding: 1rem;
 }
+
+.movies-container div img {
+    max-width: 100%;
+}
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg{
+    color: #f7d354;
+}
+
+.movies-container div a{
+    background-color: #f7d354;
+    border: #f7d354 1px solid;
+    border: 4px;
+    color: #000;
+    padding: 0.8rem 0.5rem;
+    transition: .4s;
+}
+
+.movies-container div a:hover{
+    background-color: transparent;
+    color: #f7d354;
+}
